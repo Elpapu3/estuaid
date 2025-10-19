@@ -1,0 +1,44 @@
+body {
+    min-height: 100vh; /* ocupar toda la altura de la ventana */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1 {
+    margin: 5px;
+}
+
+body > button {
+    font-size: 30px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.tablero {
+    margin-top: 1em;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 75px);
+    grid-template-rows: repeat(3, 75px);
+}
+
+.tablero button {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em; /* un poco más proporcional */
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.tablero button:disabled {
+    color: aqua;
+    cursor: not-allowed;
+}

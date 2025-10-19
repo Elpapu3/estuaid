@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 25px;
+}
+button:hover{
+    background-color: cadetblue;
+}
+input{
+    font-size: 25px;
+}
+p{
+    font-size: 25px;
+}

@@ -1,0 +1,7 @@
+body{
+    text-align: center;
+}
+.op button{
+    display: flex;
+    flex-direction: column;
+}
